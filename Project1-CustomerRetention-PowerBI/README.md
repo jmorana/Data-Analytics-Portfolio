@@ -1,0 +1,30 @@
+# Customer Retention & Revenue Insights Dashboard (Power BI)
+
+## Overview
+This project analyzes 5 years of fictional customer and revenue data to uncover trends in churn, retention, customer lifetime value, and monthly recurring revenue (MRR). I built an interactive Power BI dashboard to visualize patterns and forecast future revenue.
+
+## Tools Used
+- Power BI  
+- DAX  
+- Excel  
+
+## Skills Demonstrated
+- Data modeling  
+- DAX calculations  
+- KPI dashboard design  
+- Cohort analysis  
+- Trend forecasting  
+
+## Key Insights
+- Annual churn rate: **12.8%**  
+- High-value customers had **40% higher retention**  
+- Seasonal acquisition peaks in Q2 & Q4  
+- Forecasting model achieved **94% accuracy**  
+
+## DAX Measures
+```DAX
+Churn Rate = DIVIDE([Lost Customers], [Starting Customers])
+
+MRR = SUM(Revenue[Amount])
+
+CLV = AVERAGE(Customer[LifetimeValue])
